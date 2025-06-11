@@ -1,0 +1,169 @@
+.hero-title1{
+    margin-top:70px;
+    margin-left:70px;
+    font-size:120px;
+}
+.hero-title2{
+    margin-top:-10px;
+    margin-left:70px;
+    font-size:120px;
+}
+.hero-text{
+    margin-left:70px;
+    margin-top: 5px;
+    width:500px;
+    height:50px;
+}
+.hero-title-card{
+    margin-left: 820px;
+    margin-top: -300px;
+    font-size:30px;
+}
+
+.hero-card1-text{
+    margin-left: 820px;
+}
+
+.hero-card1-img{
+    margin-left: 800px;
+
+}
+.hero-card2-img{
+    margin-left: 800px;
+
+}
+.hero-card1-button{
+  width: 300px;
+    height: 59px;
+    margin-left: 820px;
+}
+
+.intro-activites-text{
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+.activites-a-lhonneur-text{
+    margin-top: 100px;
+}
+
+.activites-card1{
+    width: 527px;
+    height: 518px;
+    background-color: maroon;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+
+.activites-card2{
+    width: 316px;
+    height: 238px;
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+.activites-card3{
+    width: 316px;
+    height: 238px;
+    background-color: deeppink;
+    margin-top: 42px;
+    border-radius: 10px;
+
+}
+
+.activites-card4{
+    width: 316px;
+    height: 238px;
+    background-color: purple;
+    margin-left: 20px;
+    border-radius: 10px;
+
+
+
+
+}
+
+.activites-card5{
+    width: 316px;
+    height: 238px;
+    background-color: green;
+    margin-top: 42px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+
+
+}
+.activites-card-group1{
+    margin-left: 490px;
+}
+.frise{
+    width:1200px;
+    height:1200px;
+    margin-top: 80px;
+}
+
+.activites-ponctuelles-group{
+    display: flex;
+    margin-left: 490px;
+}
+.activites-ponctuelles-card1{
+    width: 350px;
+    height: 400px;
+    background-color: maroon;
+    border-radius: 10px;
+
+}
+.activites-ponctuelles-card2{
+    width: 350px;
+    height: 400px;
+    background-color: orange;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.intro-activites-text{
+    text-align: left;
+}
+
+.activites-hebdomadaires-card1{
+    width: 1150px;
+    height: 400px;
+    background-color: maroon;
+    display: flex;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.activites-hebdomadaires-card-group{
+    display: flex;
+    margin:auto;
+    margin-left:20px;
+    margin-top:25px;
+}
+.activites-hebdomadaires-card2{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: orange;
+
+}
+.activites-hebdomadaires-card3{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: deeppink;
+    display: flex;
+    margin: auto;
+}
+.activites-hebdomadaires-card4{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: green;
+    margin-right: 20px;
+}

@@ -1,0 +1,26 @@
+.connexion-card{
+    width: 800px;
+    height: 625px;
+    background-color: red;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-top:-630px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.connexion-card-title{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+}
+.connexionimg{
+    width: 400px;
+}
+
+.email-text{
+    text-align: center;
+}

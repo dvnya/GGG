@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+    <link rel="stylesheet" href="Acceuil.css">
+</head>
+<body>
+<div id="navbar"></div>
+
+<script>
+  fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+          });
+</script>
+<main>
+  <section class="hero">
+    <div class="hero-body">
+      <img class="logo" src="G&GG/src/assets/LOGO_G&GG.svg">
+        <p class="hero-text">Lutter contre l’isolement social de TOUTES les femmes, explorez des valeurs, des idées et des défis inspirants, et découvrez des activités motivantes pour nourrir votre esprit et renforcer votre confiance.</p>
+        <button class="hero-button"><a>En savoir plus</a></button>
+    </div>
+  </section>
+  <section class="features">
+    <div class="feature-body">
+    <p class="feature-body-title">Créer du lien entre femmes, lutter contre l’isolement et cultiver la confiance ensemble, un élan de sororité</p>
+      <p class="feature-body-text">Glow&GoGirls est une association dédiée à la lutte contre l’isolement social des femmes à travers des activités sportives, culturelles et des événements inspirants. Nous organisons des sorties hebdomadaires et des rencontres enrichissantes pour favoriser le bien-être, la confiance en soi et les liens entre femmes. Notre objectif est de créer un espace bienveillant où chacune peut s’épanouir, échanger et se sentir soutenue.</p>
+      <img class="feature-body-image" src="G&GG/src/assets/img2acceuil.png">
+      <!--decris avce madame -->
+      <img class="wave2" src="G&GG/src/assets/wave2.png" >
+
+    </div>
+  </section>
+  <section class="highlight">
+    <div class="highlight-body">
+      <p class="highlight-body-title">Un espace pour s’élever ensemble</p>
+      <p class="highlight-body-text">Nos valeurs reflètent notre engagement. À travers l’entraide, le respect et le partage, nous construisons ensemble une communauté forte et inspirante. Nous créons un espace où l'entraide et l'échange sont au cœur de chaque action, pour grandir ensemble, tisser des liens forts et ne laisser personne de côté.</p>
+      <img class="highlight-body-image" src="G&GG/src/assets/img3acceuil.png">
+    </div>
+  </section>
+  <section class="testimonials">
+    <div class="testimonial-body">
+      <div class="testimonial-card1-body">
+        <img class=stars src="G&GG/src/assets/stars.png">
+        <img class='guillemet' src="G&GG/src/assets/guillemet.png">
+        <div class="testimonial-card1-text">Le fait de rencontrer des femmes extraordinaires et discuter du sujet profond m’a fait énormement de bien.Merci</div>
+        <div class="testimonial-card1-name">Sonia- Randonnée </div>
+      </div>
+      <div class="testimonial-card2-body">
+        <img class=stars src="G&GG/src/assets/stars.png">
+        <img class='guillemet' src="G&GG/src/assets/guillemet.png">
+        <div class="testimonial-card2-text">C’etait super merci beaucoup à Ines pour sa bonne humeur, ses conseils et don dynamisme </div>
+        <div class="testimonial-card2-name">Juliette-Course</div>
+      </div>
+      <div class="testimonial-card3-body">
+        <img class=stars src="G&GG/src/assets/stars.png">
+        <img class='guillemet' src="G&GG/src/assets/guillemet.png">
+        <div class="testimonial-card3-text">Franchement 100% réussi! Merci d’avoir proposé et organsié ca </div>
+        <div class="testimonial-card3-name">Mélinda- Yoga</div>
+      </div>
+    </div>
+  </section>
+  <section class="team">
+    <div class="team-body">
+      <img class="team-body-img" src="G&GG/src/assets/img4acceuil.svg">
+      <div class="team-body-title">L’équipe Glow And Go Girls</div>
+      <div class="team-body-text">un petit texte en disant des truc sur le quipe </div>
+      <div class="team-body-card">
+        <div class="team-body-card1">
+          <img class=team-body-img src="G&GG/src/assets/img5acceuil.svg">
+          <div class="team-body-card1-card-title">Ines.R</div>
+          <div class="team-body-card1-card-text">Fondatrice & Présidente</div>
+        </div>
+        <div class="team-body-card2">
+          <img class=team-body-img src="G&GG/src/assets/img5acceuil.svg">
+          <div class="team-body-card2-card-title">MaÏmouna.k</div>
+        <div class="team-body-card2-card-text">Vice Présidente & Co-secrétaire générale</div>
+        </div>
+        <div class="team-body-card3">
+          <img class=team-body-img src="G&GG/src/assets/img5acceuil.svg">
+          <div class="team-body-card3-card-title">Layanna.M</div>
+          <div class="team-body-card3-card-text">Co secrétaire générale & Responsable Book Club</div>
+        </div>
+        <div class="team-body-card4">
+          <img class=team-body-img src="G&GG/src/assets/img5acceuil.svg">
+          <div class="team-body-card3-card-title">Ermira.K</div>
+          <div class="team-body-card3-card-text">Trésorière</div>
+        </div>
+
+        </div>
+      <div class="team-body-card-group">
+        <div class="team-body-card5">
+
+        </div>
+        <div class="team-body-card6">
+          <img class=team-body-img src="G&GG/src/assets/img5acceuil.svg">
+          <div class="team-body-card6-card-title">Lisa.L</div>
+          <div class="team-body-card6-card-text">Responsable pole Evenementiel & Partenariat</div>
+        </div>
+        <div class="team-body-card7">
+          <img class=team-body-img src="G&GG/src/assets/img5acceuil.svg">
+          <div class="team-body-card7-card-title">Hilda.K</div>
+          <div class="team-body-card7-card-text">Bénévole pôle Evénementiel et Communication</div>
+        </div>
+        <div class="team-body-card8">
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,317 @@
+.hero{
+    background-image: url('G&GG/src/assets/wave.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+}
+
+.hero-img{
+    width: 100%;
+    height: 350px;
+}
+
+
+
+
+.hero-body {
+    margin-left: 100px;
+}
+
+.logo {
+    width: 200px;
+    height: 101px;
+}
+
+.hero-text{
+    width: 501px;
+    height: 101px;
+    text: bold;
+
+}
+.hero-button {
+    border-radius: 10px;
+    background-color: #ffcd6b;
+    border: #ffcd6b;
+    width: 200px;
+    height: 40px;
+}
+
+.hero-button a{
+    color:white;
+}
+
+
+
+.feature-body{
+    width: 501px;
+    height: 101px;
+    margin-left: 40px;
+}
+
+.feature-body-title{
+    font-size:30px;
+}
+.wave2{
+    width: 600px;
+    height: 430px;
+    margin-left: 610px;
+    margin-top: -300px;
+
+}
+.feature-body-image{
+    width: 300px;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: -200px;
+    border-radius: 5%;
+}
+.highlight-body-title{
+    text-align: center;
+    margin-top: 450px;
+    font-size:32px;
+}
+.highlight-body-text{
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.highlight-body-image{
+    margin:auto;
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    margin-top: -200px;
+}
+
+.testimonial-body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px
+
+}
+.stars{
+    display: flex;
+    margin:auto;
+    margin-top: 20px;
+}
+.guillemet{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.testimonial-card1-body{
+     width: 370px;
+     height: 300px;
+     background-color:#F3EEE9;
+    margin:5px;
+    border-radius: 5%;
+    box-shadow: 15px 0 50px rgba(0, 0, 0, 0.2);
+
+}
+.testimonial-card1-text{
+    width: 311px;
+    height: 108px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+.testimonial-card1-name{
+    text-align: center;
+
+}
+.testimonial-card2-body{
+    width: 370px;
+    height: 300px;
+    background-color:#F3EEE9;
+    margin:5px;
+    border-radius: 5%;
+    box-shadow: 15px 0 50px rgba(0, 0, 0, 0.2);
+
+
+
+}
+.testimonial-card2-text{
+    width: 311px;
+    height: 108px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.testimonial-card2-name{
+    text-align: center;
+
+}
+.testimonial-card3-body{
+    width: 370px;
+    height: 300px;
+    background-color:#F3EEE9;
+    margin:5px;
+    border-radius: 5%;
+    box-shadow: 15px 0 50px rgba(0, 0, 0, 0.2);
+
+}
+
+.testimonial-card3-text{
+    width: 311px;
+    height: 108px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.testimonial-card3-name{
+    text-align: center;
+
+}
+
+
+
+.team-body-img{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.team-body-title{
+    text-align: center;
+    margin-top: 15px;
+    ;
+}
+
+.team-body-text{
+    text-align: center;
+    margin-top: 15px;
+}
+.team-body-card{
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.team-body-card1{
+    width: 250px;
+    height: 300px;
+    background-color: #F8F8F6;
+}
+.team-body-card2{
+    width: 250px;
+    height: 300px;
+    background-color: #F8F8F6;
+}
+.team-body-card3{
+    width: 250px;
+    height: 300px;
+    background-color: #F8F8F6;
+}
+.team-body-card4{
+    width: 250px;
+    height: 300px;
+    background-color: #F8F8F6;
+}
+.team-body-card5{
+    width: 250px;
+    height: 300px;
+    background-color: #ffffff;
+
+}
+.team-body-card6{
+    width: 250px;
+    height: 300px;
+    background-color: #F8F8F6;
+}
+.team-body-card7{
+    width: 250px;
+    height: 300px;
+    background-color: #F8F8F6;
+
+
+}
+.team-body-card8{
+    width: 290px;
+    height: 300px;
+    background-color: #ffffff;
+
+
+}
+.team-body-img{
+    width: 80px;
+    height: 100px;
+    margin-top: 50px;
+    margin-top: 50px;
+}
+
+.team-body-card1-card-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card1-card-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card2-card-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card2-card-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card3-card-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card3-card-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card4-card-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card4-card-text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team-body-card5-card-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card5-card-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card6-card-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card6-card-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card7-card-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card7-card-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.team-body-card-group{
+    display: flex;
+}
+
+.team-body-card{
+    display: flex;
+    margin:auto;
+    margin-top: 30px;
+}
