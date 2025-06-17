@@ -1,26 +1,184 @@
-.connexion-card{
-    width: 800px;
-    height: 625px;
-    background-color: red;
-    margin-left: auto;
-    border-radius: 10px;
-    margin-top:-630px;
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    margin: 20px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.login-image {
+    flex: 1;
+    background: url('G&GG/src/assets/connexionimg.png') no-repeat center center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.login-form {
+    flex: 1;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
-    z-index: 2;
-
 }
 
-.connexion-card-title{
-    font-size: 25px;
+.form-header {
     text-align: center;
+    margin-bottom: 2rem;
     position: relative;
-    z-index: 1;
-
-}
-.connexionimg{
-    width: 400px;
 }
 
-.email-text{
+.form-header h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.header-icon {
+    position: absolute;
+    top: -15px;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+}
+
+.input-group {
+    margin-bottom: 1.25rem;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    background-color: #f0f2f5;
+    border-radius: 25px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.input-group input::placeholder {
+    color: #aaa;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #f8c953;
+    color: #212529;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #eab638;
+}
+
+.login-link {
     text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #777;
 }
+
+.login-link a {
+    color: #f8c953;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #ccc;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.separator span {
+    padding: 0 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #aaa;
+}
+
+.btn-google {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #555;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-google:hover {
+    background-color: #f9f9f9;
+}
+
+.btn-google img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        max-width: 450px;
+    }
+
+    .login-image {
+        display: none;
+    }
+
+    .login-form {
+        padding: 40px 30px;
+    }
+
+    .header-icon {
+        top: -10px;
+        right: -10px;
+        width: 40px;
+    }
+}
+

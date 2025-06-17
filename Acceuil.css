@@ -1,10 +1,103 @@
-.hero{
-    background-image: url('G&GG/src/assets/wave.svg');
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 350px;
+.navbar {
+    background: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items:center;
+    gap: 30px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+    margin-right:150px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn1, .btn2 {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn1 {
+    background: rgba(209, 209, 209, 0.42);
+    border: 0px solid;
+
+}
+
+.btn2 {
+    background: #ffcd6b;
+    border: 1px solid #ffcd6b;
+    color: white;
+}
+
+.btn1 a {
+    color: #ffcd6b;
+}
+
+.btn2 a {
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+.hero {
+    background-image: url('G&GG/src/assets/img_acceuil.svg');
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    margin-top: 300px;
+}
+
+.wave {
+    margin-top: -500px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1; /* devant le fond */
+}
 .hero-img{
     width: 100%;
     height: 350px;
@@ -15,31 +108,52 @@
 
 .hero-body {
     margin-left: 100px;
+    position: relative;
+    overflow: hidden;
 }
 
+.img_acceuil{
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
 .logo {
     width: 200px;
     height: 101px;
+    position: relative;
+    z-index: 10;
 }
 
 .hero-text{
     width: 501px;
     height: 101px;
-    text: bold;
-
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #555547;
+    position: relative;
+    z-index: 10;
 }
 .hero-button {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #ffcd6b;
     border: #ffcd6b;
     width: 200px;
     height: 40px;
+    position: relative;
+    z-index: 10;
 }
 
 .hero-button a{
     color:white;
 }
 
+
+.img_acceuil{
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
 
 
 .feature-body{
@@ -50,12 +164,24 @@
 
 .feature-body-title{
     font-size:30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 500px;
+    margin-top: 300px;
+
+}
+.highlight{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color:#FFCD6B
+
 }
 .wave2{
     width: 600px;
     height: 430px;
     margin-left: 610px;
     margin-top: -300px;
+
 
 }
 .feature-body-image{
@@ -67,15 +193,27 @@
 }
 .highlight-body-title{
     text-align: center;
-    margin-top: 450px;
+    margin-top: 650px;
     font-size:32px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:bold;
+    color:#FFCD6B;
+}
+
+.feature-body-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
 }
 .highlight-body-text{
     width: 900px;
     height: 300px;
     margin: 0 auto;
     text-align: center;
-
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:#555547;
 
 }
 
@@ -111,6 +249,12 @@
     box-shadow: 15px 0 50px rgba(0, 0, 0, 0.2);
 
 }
+.team-body-card1-card-title{
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
+}
 .testimonial-card1-text{
     width: 311px;
     height: 108px;
@@ -121,10 +265,7 @@
 
 
 }
-.testimonial-card1-name{
-    text-align: center;
 
-}
 .testimonial-card2-body{
     width: 370px;
     height: 300px;
@@ -136,6 +277,12 @@
 
 
 }
+.team-body-card2-card-title{
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
+}
 .testimonial-card2-text{
     width: 311px;
     height: 108px;
@@ -145,10 +292,7 @@
     margin-top: 10px;
 
 }
-.testimonial-card2-name{
-    text-align: center;
 
-}
 .testimonial-card3-body{
     width: 370px;
     height: 300px;
@@ -158,7 +302,12 @@
     box-shadow: 15px 0 50px rgba(0, 0, 0, 0.2);
 
 }
-
+.team-body-card3-card-title{
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
+}
 .testimonial-card3-text{
     width: 311px;
     height: 108px;
@@ -168,17 +317,17 @@
     margin-top: 10px;
 
 }
-.testimonial-card3-name{
-    text-align: center;
 
+
+
+.team-body{
+    margin-top: 150px;
 }
-
-
 
 .team-body-img{
     display: flex;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 .team-body-title{
@@ -193,7 +342,7 @@
 }
 .team-body-card{
     display: flex;
-    margin-top: 40px;
+
 
 }
 
@@ -201,6 +350,7 @@
     width: 250px;
     height: 300px;
     background-color: #F8F8F6;
+    margin-left: 90px;
 }
 .team-body-card2{
     width: 250px;
@@ -221,7 +371,7 @@
     width: 250px;
     height: 300px;
     background-color: #ffffff;
-
+    margin-left: 90px;
 }
 .team-body-card6{
     width: 250px;
@@ -252,6 +402,10 @@
 .team-body-card1-card-title{
     text-align: center;
     margin-top: 20px;
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
 }
 .team-body-card1-card-text{
     text-align: center;
@@ -260,6 +414,10 @@
 .team-body-card2-card-title{
     text-align: center;
     margin-top: 20px;
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
 }
 .team-body-card2-card-text{
     text-align: center;
@@ -268,6 +426,10 @@
 .team-body-card3-card-title{
     text-align: center;
     margin-top: 20px;
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
 }
 .team-body-card3-card-text{
     text-align: center;
@@ -276,6 +438,10 @@
 .team-body-card4-card-title{
     text-align: center;
     margin-top: 20px;
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
 }
 .team-body-card4-card-text{
     text-align: center;
@@ -285,6 +451,10 @@
 .team-body-card5-card-title{
     text-align: center;
     margin-top: 20px;
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
 }
 .team-body-card5-card-text{
     text-align: center;
@@ -293,6 +463,10 @@
 .team-body-card6-card-title{
     text-align: center;
     margin-top: 20px;
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
 }
 .team-body-card6-card-text{
     text-align: center;
@@ -301,6 +475,10 @@
 .team-body-card7-card-title{
     text-align: center;
     margin-top: 20px;
+    color: #FFCD6B;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
 }
 .team-body-card7-card-text{
     text-align: center;

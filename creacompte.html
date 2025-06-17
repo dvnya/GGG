@@ -4,27 +4,56 @@
     <meta charset="UTF-8">
     <title>Connexion</title>
     <link rel="stylesheet" href="creacompte.css">
-    <section id="creacompte">
-        <img class="connexionimg" src="G&GG/src/assets/connexionimg.png">
-        <div class="connexion-card">
-            <div class="connexion-card-title">Créez votre compte </div>
-            <div class="group-name">
-                <label class="name-text" for="fullname">Nom complet</label>
-                <input class="name-champs" type="fullname" id="fullname" name="fullname" placeholder="Entrez votre nom complet ici" required />
-            </div>
-            <div class="group-email">
-                <label class="email-text" for="email">Email</label>
-                <input class="email-champs" type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail ici" required />
-            </div>
-            <div class="group-password">
-                <label class="password-text" for="password">Mot de passe</label>
-                <input class="password-champs" type="password" id="password" name="password" placeholder="Entrez votre mot de passe ici" required />
-            </div>
-            <button class="connexion-button">Se connecter</button>
-        </div>
-    </section>
+    <!DOCTYPE html>
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Créez votre compte</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
 
-</head>
+    <body>
+    <div class="container">
+        <div class="image-section">
+            <img src="G&GG/src/assets/img_creacompte.svg" alt="Deux femmes en plein air" class="background-image">
+
+        </div>
+        <div class="form-section">
+            <div class="icon-container">
+            </div>
+            <h1>Créez votre compte</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" placeholder="Entrez votre nom complet ici">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Entrez votre adresse e-mail ici">
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" placeholder="Entrez votre mot de passe ici">
+                </div>
+                <button type="submit" class="submit-btn">Créer un compte</button>
+            </form>
+            <p class="login-link">Vous avez déjà un compte ? <a href="#">Connectez-vous</a></p>
+            <div class="separator">
+                <span>OU</span>
+            </div>
+            <button class="google-btn">
+                <img src="G&GG/src/assets/Google.svg" alt="Google logo">
+                <span>Sign up with Google</span>
+            </button>
+        </div>
+    </div>
+    </body>
+    </html>
 <body>
 
 </body>

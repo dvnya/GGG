@@ -4,34 +4,79 @@
     <meta charset="UTF-8">
     <title>Podcast</title>
     <link rel="stylesheet" href="Podcast.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<body>
+<nav class="navbar">
+    <div class="navdiv">
+        <div class="logo">
+            <a href="#"><img src="G&GG/src/assets/LOGO_G&GG.svg"></a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="Acceuil.html">Accueil</a></li>
+            <li><a href="Activité.html">Activité</a></li>
+            <li><a href="Podcast.html">Podcast</a></li>
+        </ul>
+
+        <div class="buttons">
+            <button class="btn1"><a href="Connexion.html">Connexion</a></button>
+            <button class="btn2"><a href="creacompte.html">Inscription</a></button>
+        </div>
+    </div>
+</nav>
+</body>
     <section id="hero">
         <div class="hero-body">
             <div class="hero-title1">Ton Podcast </div>
             <div class="hero-title2">préferée</div>
             <div class="hero-text1">Prêtes a évoluer et a devenir la version</div>
             <div class="hero-text2">de nous-mêmes que nous aimons ?</div>
-            <button class="hero-button">S’abonner</button>
+            <a href="https://open.spotify.com/show/1uvEMQi6GuBfJQ2xGDc2zD" class="hero-button">S’abonner</a>
 
         </div>
     </section>
 
     <section id="podcasts-en-vedette">
         <div class="podcasts-en-vedette-card-group">
-            <div class="podcast-card1"></div>
-            <div class="podcast-card2"></div>
-            <div class="podcast-card3"></div>
-            <div class="podcast-card4"></div>
-            <div class="podcast-card5"></div>
+            <div class="podcast-card1">
+                <img class=img1_podcast src="G&GG/src/assets/img1_podcast.svg">
+            </div>
+            <div class="podcast-card2">
+                <img class=img2_podcast src="G&GG/src/assets/img2_podcast.svg">
+            </div>
+            <div class="podcast-card3">
+                <img class=img3_podcast src="G&GG/src/assets/img3_podcast.svg">
+            </div>
+            <div class="podcast-card4">
+                <img class=img4_podcast src="G&GG/src/assets/img4_podcast.svg">
+            </div>
+            <div class="podcast-card5">
+                <img class=img5_podcast src="G&GG/src/assets/img5_podcast.svg">
+            </div>
         </div>
     </section> <!-- Les 5 podcasts principaux affichés -->
 
     <section id="partenaires">
         <div class="partenaires-line1"></div>
         <div class="partenaires-body">
-        <div class="partenaires-text"> Nos plateformes favorites</div>
-        <img class="partenaires-spotify" src="G&GG/src/assets/Spotify.svg">
-        <img class="partenaires-googlepodcasts" src="G&GG/src/assets/GooglePodcast.svg">
-        <img class="partenaires-applepodcast" src="G&GG/src/assets/Applepodcast.svg">
+            <div class="partenaires-body-text">Nos plateforme d'ecoute :</div>
+            <div class="group-partenaires">
+                <a href="https://open.spotify.com/show/1uvEMQi6GuBfJQ2xGDc2zD" target="_blank">
+                    <img src="G&GG/src/assets/Spotify.svg" alt="Écouter sur Spotify">
+                </a>
+                <a href="https://open.spotify.com/show/1uvEMQi6GuBfJQ2xGDc2zD" target="_blank">
+                    <img src="G&GG/src/assets/GooglePodcast.svg" alt="Écouter sur Google podcast">
+                </a>
+                <a href="https://podcasts.apple.com/gd/podcast/pourquoi-glow-go-girls/id1772687889?i=1000672066113" target="_blank">
+                    <img src="G&GG/src/assets/Applepodcast.svg" alt="Écouter sur Applepodcast">
+                </a>
+
+            </div>
         </div>
         <div class="partenaires-line2"></div>
 
@@ -51,10 +96,15 @@
 
     <section id="temoignages">
     <div class="temoignages-title">Ce que disent nos auditeurs</div>
-        <div class="temoignages-card-group">
-            <div class="temoignage-card1"></div>
-            <div class="temoignage-card2"></div>
-            <div class="temoignage-card3"></div>
+            <div class="temoignage-card1">
+                <div class="temoignage-card1_text">On va toutes glow ✨ grâce à tes conseils. Très beau projet!</div>
+                <div class="profil-temoignage-group">
+                <img class="profil-temoignage" src="G&GG/src/assets/profil.png">
+                <div class="profil-temoignage-text">Maimouna</div>
+                    <a href="https://open.spotify.com/show/1uvEMQi6GuBfJQ2xGDc2zD" target="_blank">
+                        <img class="spt" src="G&GG/src/assets/Spotify.svg" alt="Écouter sur Spotify">
+                    </a>
+                </div>
         </div>
 
     </section> <!-- Avis des auditeurs -->
@@ -63,14 +113,45 @@
         <div class="episodes-recents-title">Recent Episodes</div>
         <div class="episodes-recents-text">Disponible sur votre plateforme préférée.</div>
         <div class="episodes-recents-cardf">
-            <div class="episodes-recents-card-1"></div>
-            <div class="episodes-recents-card-2"></div>
-            <div class="episodes-recents-card-3"></div>
+            <div class="episodes-recents-card-1">
+                <img class=img7_podcast src="G&GG/src/assets/img7_podcast.svg">
+                <div class="episodes-recents-card1_mini_title">Eps. 6</div>
+                <div class="episodes-recents-card1_title">FROM 2024 To 2025</div>
+                <div class="episodes-recents-card1_text">Dans cet épisode introductif, je vous présente Glow & Go Girls, une dédiée aux femmes qui souhaitent briller et avancer dans leur vie. Je décompose le concept derrière Glow & Go Girls : GLOW, pour incarner la lumière et l’épanouissement personnel, et GO, pour symboliser l’action, le passage à l’étape suivante, et l’audace de réaliser nos envies. Ensemble, nous créons un espace où nous, les femmes, pouvons nous soutenir, nous motiver et avancer, main dans la main, vers notre meilleure version. Prête à rejoindre l’aventure ? Écoute cet épisode pour en savoir plus !</div>
+
+            </div>
+            <div class="episodes-recents-card-2">
+                <div class="episodes-recents-card2_mini_title">Eps. 7</div>
+                <div class="episodes-recents-card2_title">FROM 2024 To 2025</div>
+                <div class="episodes-recents-card2_text">Dans cet épisode introductif, je vous présente Glow & Go Girls, une dédiée aux femmes qui souhaitent briller et avancer dans leur vie. Je décompose le concept derrière Glow & Go Girls : GLOW, pour incarner la lumière et l’épanouissement personnel, et GO, pour symboliser l’action, le passage à l’étape suivante, et l’audace de réaliser nos envies. Ensemble, nous créons un espace où nous, les femmes, pouvons nous soutenir, nous motiver et avancer, main dans la main, vers notre meilleure version. Prête à rejoindre l’aventure ? Écoute cet épisode pour en savoir plus !</div>
+            </div>
+            <div class="episodes-recents-card-3">
+                <img class=img9_podcast src="G&GG/src/assets/img7_podcast.svg">
+                <div class="episodes-recents-card3_mini_title">Eps. 6</div>
+                <div class="episodes-recents-card3_title">FROM 2024 To 2025</div>
+                <div class="episodes-recents-card3_text">Dans cet épisode introductif, je vous présente Glow & Go Girls, une dédiée aux femmes qui souhaitent briller et avancer dans leur vie. Je décompose le concept derrière Glow & Go Girls : GLOW, pour incarner la lumière et l’épanouissement personnel, et GO, pour symboliser l’action, le passage à l’étape suivante, et l’audace de réaliser nos envies. Ensemble, nous créons un espace où nous, les femmes, pouvons nous soutenir, nous motiver et avancer, main dans la main, vers notre meilleure version. Prête à rejoindre l’aventure ? Écoute cet épisode pour en savoir plus !</div>
+
+            </div>
         </div>
         <div class="episodes-recents-cards">
-            <div class="episodes-recents-card-4"></div>
-            <div class="episodes-recents-card-5"></div>
-            <div class="episodes-recents-card-6"></div>
+            <div class="episodes-recents-card-4">
+                <img class=img10_podcast src="G&GG/src/assets/img7_podcast.svg">
+                <div class="episodes-recents-card4_mini_title">Eps. 6</div>
+                <div class="episodes-recents-card4_title">FROM 2024 To 2025</div>
+                <div class="episodes-recents-card4_text">Dans cet épisode introductif, je vous présente Glow & Go Girls, une dédiée aux femmes qui souhaitent briller et avancer dans leur vie. Je décompose le concept derrière Glow & Go Girls : GLOW, pour incarner la lumière et l’épanouissement personnel, et GO, pour symboliser l’action, le passage à l’étape suivante, et l’audace de réaliser nos envies. Ensemble, nous créons un espace où nous, les femmes, pouvons nous soutenir, nous motiver et avancer, main dans la main, vers notre meilleure version. Prête à rejoindre l’aventure ? Écoute cet épisode pour en savoir plus !</div>
+
+            </div>
+            <div class="episodes-recents-card-5">
+                <div class="episodes-recents-card5_mini_title">Eps. 6</div>
+                <div class="episodes-recents-card5_title">FROM 2024 To 2025</div>
+                <div class="episodes-recents-card5_text">Dans cet épisode introductif, je vous présente Glow & Go Girls, une dédiée aux femmes qui souhaitent briller et avancer dans leur vie. Je décompose le concept derrière Glow & Go Girls : GLOW, pour incarner la lumière et l’épanouissement personnel, et GO, pour symboliser l’action, le passage à l’étape suivante, et l’audace de réaliser nos envies. Ensemble, nous créons un espace où nous, les femmes, pouvons nous soutenir, nous motiver et avancer, main dans la main, vers notre meilleure version. Prête à rejoindre l’aventure ? Écoute cet épisode pour en savoir plus !</div>
+            </div>
+            <div class="episodes-recents-card-6">
+                <img class=img12_podcast src="G&GG/src/assets/img7_podcast.svg">
+                <div class="episodes-recents-card6_mini_title">Eps. 6</div>
+                <div class="episodes-recents-card6_title">FROM 2024 To 2025</div>
+                <div class="episodes-recents-card6_text">Dans cet épisode introductif, je vous présente Glow & Go Girls, une dédiée aux femmes qui souhaitent briller et avancer dans leur vie. Je décompose le concept derrière Glow & Go Girls : GLOW, pour incarner la lumière et l’épanouissement personnel, et GO, pour symboliser l’action, le passage à l’étape suivante, et l’audace de réaliser nos envies. Ensemble, nous créons un espace où nous, les femmes, pouvons nous soutenir, nous motiver et avancer, main dans la main, vers notre meilleure version. Prête à rejoindre l’aventure ? Écoute cet épisode pour en savoir plus !</div>
+            </div>
         </div>
     </section> <!-- Liste des épisodes récents -->
 

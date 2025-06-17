@@ -1,26 +1,129 @@
+.navbar {
+    background: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items:center;
+    gap: 30px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+    margin-right:150px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn1, .btn2 {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn1 {
+    background: rgba(209, 209, 209, 0.42);
+    border: 0px solid;
+
+}
+
+.btn2 {
+    background: #ffcd6b;
+    border: 1px solid #ffcd6b;
+    color: white;
+}
+
+.btn1 a {
+    color: #ffcd6b;
+}
+
+.btn2 a {
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+
+}
+
+
+
 .hero-title1{
     text-align: center;
     font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #ffcd6b;
 }
 .hero-title2{
     text-align: center;
     font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #ffcd6b;
 }
 .hero-text1{
     text-align: center;
     margin-top: 60px;
     font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    color:#4D4D4D;
 }
 .hero-text2{
     text-align: center;
     font-size: 20px;
-
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    color:#4D4D4D;
 }
 
 .hero-button{
+    text-align: center;
+    width: 100px;
+    height: 40px;
     display: flex;
     margin:auto;
     margin-top: 60px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:bold;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    line-height: 40px;
+    box-shadow: 2px 2px 4px grey;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .podcasts-en-vedette-card-group{
@@ -31,14 +134,19 @@
 .podcast-card1{
     width: 220px;
     height: 220px;
-    background-color: green;
+    display: flex;
+    margin:auto;
     border-radius: 10px;
+}
+
+.img3_podcast{
+    display: flex;
 }
 .podcast-card2{
     width: 220px;
     height: 220px;
-    background-color: blue;
-    margin-left: 25px;
+    display: flex;
+    margin:auto;
     border-radius: 10px;
 
 
@@ -46,7 +154,6 @@
 .podcast-card3{
     width: 220px;
     height: 220px;
-    background-color: yellow;
     display: flex;
     margin:auto;
     border-radius: 10px;
@@ -55,17 +162,42 @@
 .podcast-card4{
     width: 220px;
     height: 220px;
-    background-color: deeppink;
     margin-right: 25px;
+    display: flex;
+    margin:auto;
     border-radius: 10px;
 
 }
 .podcast-card5{
     width: 220px;
     height: 220px;
-    background-color: red;
+    display: flex;
+    margin:auto;
     border-radius: 10px;
 
+}
+
+
+.partenaires-body-text{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.group-partenaires{
+    margin-top: -30px;
+    margin-left: 450px;
+
+}
+.partenaires-spotify{
+    align-items: center;
+}
+.partenaires-googlepodcasts{
+    margin-left: 30px;
+}
+.partenaires-applepodcast{
+    margin-left: 30px;
 }
 .partenaires-line1{
     width: 1000px;
@@ -98,11 +230,14 @@
     text-align: center;
     font-size: 30px;
     margin-top: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:600;
 }
 .a-propos-text2{
     text-align: center;
     font-size: 30px;
-
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:600;
 }
 .a-propos-card{
     width: 1000px;
@@ -110,66 +245,93 @@
     display: flex;
     margin: auto;
     margin-top: 200px;
-    background-color: yellow;
+    background-color: #FFC96B8C;
     border-radius: 10px;
 }
 .guillemet-a-propos{
     width: 30px;
     height: 30px;
-    display: flex;
-    margin: 0 auto;
     margin-top: 40px;
+    align-items: center;
 }
 .a-propos-card-text{
     text-align: center;
     margin-top: 100px;
-    font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:700;
+    font-size: 15px;
 }
 
 .temoignages-title{
     font-size: 30px;
     text-align: center;
     margin-top: 150px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:700;
 }
 
-.temoignages-card-group{
+
+
+.temoignage-card1{
+    width: 700px;
+    height: 200px;
+    background-color: white;
+    margin-left: 120px;
+    border-radius: 10px;
+    border: 1px solid dimgrey;
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 60px;
 }
 
-.temoignage-card1{
-    width: 300px;
-    height: 200px;
-    background-color: yellow;
-    margin-left: 120px;
-    border-radius: 10px;
+.temoignage-card1_text{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    text-size: 14px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
-.temoignage-card2{
-    width: 300px;
-    height: 200px;
-    background-color: blue;
-    display: flex;
-    margin: auto;
-    border-radius: 10px;
+.spotify{
+    width:70px;
+    height:70px;
+
 
 }
-.temoignage-card3{
-    width: 300px;
-    height: 200px;
-    background-color: green;
-    margin-right: 120px;
-    border-radius: 10px;
+.profil-temoignage{
+    width:25px;
+    height:25px;
+    margin-top: 100px;
+    margin-left: -490px;
 }
+.profil-temoignage-text{
+    margin-left: -450px;
+    margin-top: -25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    font-size: 14px;
+}
+
+.spotify{
+    margin-top: -43px;
+    margin-left:  400px;
+}
+
+
 .episodes-recents-title{
     text-align:center;
     margin-top: 250px;
     font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+
 }
 
 .episodes-recents-text{
     text-align: center;
     margin-top: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    color:#4D4D4D;
 }
 
 .episodes-recents-cardf{
@@ -177,18 +339,160 @@
     margin:auto;
     margin-top: 60px;
 }
+
+.img7_podcast{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top:50px;
+}
+.img8_podcast{
+    width:100px ;
+    height:100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top:50px;
+}
+.img9_podcast{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top:50px;
+}
+.img10_podcast{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top:50px;
+}
+.img12_podcast{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top:50px;
+}
+.episodes-recents-card1_text{
+    width: 150px;
+    height: 300px;
+    margin-left:auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    font-size: 9px;
+}
+
+
 .episodes-recents-card-1{
-    width: 300px;
+    width: 310px;
     height: 400px;
-    background-color: yellow;
+    background-color: #ffffff;
     border-radius: 5px;
     border: 1px solid black;
 
 }
+
+.episodes-recents-card2_mini_title{
+    margin-left: 150px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:400;
+    font-size: 15px;
+    color: #FFCD6B;
+    margin-top: 20px;
+}
+
+
+
+.episodes-recents-card2_title{
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+.episodes-recents-card2_text{
+    width: 150px;
+    height: 300px;
+    margin-left:auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    font-size: 9px;
+    margin-top: 15px;
+}
+
+.episodes-recents-card3_mini_title{
+    margin-left: 150px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:400;
+    font-size: 15px;
+    color: #FFCD6B;
+    margin-top: -140px;
+}
+
+
+
+.episodes-recents-card3_title{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.episodes-recents-card3_text{
+    width: 150px;
+    height: 300px;
+    margin-left:auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    font-size: 9px;
+    margin-top: 15px;
+}
+
+.episodes-recents-card4_mini_title{
+    margin-left: 150px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:400;
+    font-size: 15px;
+    color: #FFCD6B;
+    margin-top: -140px;
+}
+
+.episodes-recents-card4_title{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.episodes-recents-card4_text{
+    width: 150px;
+    height: 300px;
+    margin-left:auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    font-size: 9px;
+    margin-top: 15px;
+}
+.episodes-recents-card6_mini_title{
+    margin-left: 150px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:400;
+    font-size: 15px;
+    color: #FFCD6B;
+    margin-top: -140px;
+}
+
+.episodes-recents-card6_title{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.episodes-recents-card6_text{
+    width: 150px;
+    height: 300px;
+    margin-left:auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    font-size: 9px;
+    margin-top: 15px;
+}
+.episodes-recents-card2_text{
+    width: 150px;
+    height: 300px;
+    margin-left:auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    font-size: 9px;
+}
 .episodes-recents-card-2{
     width: 300px;
     height: 400px;
-    background-color: darkred;
+    background-color: #ffffff;
     display: flex;
     margin:auto;
     border-radius: 5px;
@@ -199,7 +503,7 @@
 .episodes-recents-card-3{
     width: 300px;
     height: 400px;
-    background-color: green;
+    background-color: #ffffff;
     border-radius: 5px;
     border: 1px solid black;
 
@@ -213,7 +517,7 @@
 .episodes-recents-card-4{
     width: 300px;
     height: 400px;
-    background-color: yellow;
+    background-color: white;
     border-radius: 5px;
     border: 1px solid black;
 
@@ -221,7 +525,7 @@
 .episodes-recents-card-5{
     width: 300px;
     height: 400px;
-    background-color: darkred;
+    background-color: white;
     display: flex;
     margin:auto;
     border-radius: 5px;
@@ -231,10 +535,29 @@
 .episodes-recents-card-6{
     width: 300px;
     height: 400px;
-    background-color: green;
+    background-color: white;
     border-radius: 5px;
     border: 1px solid black;
 
+
 }
 
+.episodes-recents-card1_mini_title{
+    margin-left: 160px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:400;
+    font-size: 15px;
+    color: #FFCD6B;
+    margin-top: -140px;
+}
+.episodes-recents-card1_title{
+    margin-left: 160px;
+    margin-top: 15px;
+}
+.episodes-recents-card1_text{
+    margin-top: 15px;
+}
 
+.spt{
+    margin-top:-300px;
+}

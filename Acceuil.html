@@ -4,31 +4,49 @@
   <meta charset="UTF-8">
   <title>Title</title>
     <link rel="stylesheet" href="Acceuil.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<nav class="navbar">
+  <div class="navdiv">
+    <div class="logo">
+      <a href="#"><img src="G&GG/src/assets/LOGO_G&GG.svg"></a>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="Acceuil.html">Accueil</a></li>
+      <li><a href="Activité.html">Activité</a></li>
+      <li><a href="Podcast.html">Podcast</a></li>
+    </ul>
+
+    <div class="buttons">
+      <button class="btn1"><a href="inscription.html">Connexion</a></button>
+      <button class="btn2"><a href="creacompte.html">Inscription</a></button>
+    </div>
+  </div>
+</nav>
 <div id="navbar"></div>
 
-<script>
-  fetch('navbar.html')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('navbar').innerHTML = data;
-          });
-</script>
-<main>
+
   <section class="hero">
     <div class="hero-body">
       <img class="logo" src="G&GG/src/assets/LOGO_G&GG.svg">
-        <p class="hero-text">Lutter contre l’isolement social de TOUTES les femmes, explorez des valeurs, des idées et des défis inspirants, et découvrez des activités motivantes pour nourrir votre esprit et renforcer votre confiance.</p>
+        <p class="hero-text">Lutter contre l’isolement social de toutes les femmes, explorez des valeurs, des idées et des défis inspirants, et découvrez des activités motivantes pour nourrir votre esprit et renforcer votre confiance.</p>
         <button class="hero-button"><a>En savoir plus</a></button>
+
+        <img class="wave" src="G&GG/src/assets/wave.svg">
     </div>
   </section>
   <section class="features">
     <div class="feature-body">
-    <p class="feature-body-title">Créer du lien entre femmes, lutter contre l’isolement et cultiver la confiance ensemble, un élan de sororité</p>
+    <p class="feature-body-title">Créer du lien entre femmes, <span class="highlight">lutter contre l’isolement</span> et cultiver la confiance ensemble,<span class="highlight">un élan de sororité</span></p>
       <p class="feature-body-text">Glow&GoGirls est une association dédiée à la lutte contre l’isolement social des femmes à travers des activités sportives, culturelles et des événements inspirants. Nous organisons des sorties hebdomadaires et des rencontres enrichissantes pour favoriser le bien-être, la confiance en soi et les liens entre femmes. Notre objectif est de créer un espace bienveillant où chacune peut s’épanouir, échanger et se sentir soutenue.</p>
       <img class="feature-body-image" src="G&GG/src/assets/img2acceuil.png">
-      <!--decris avce madame -->
       <img class="wave2" src="G&GG/src/assets/wave2.png" >
 
     </div>
@@ -66,7 +84,7 @@
     <div class="team-body">
       <img class="team-body-img" src="G&GG/src/assets/img4acceuil.svg">
       <div class="team-body-title">L’équipe Glow And Go Girls</div>
-      <div class="team-body-text">un petit texte en disant des truc sur le quipe </div>
+      <div class="team-body-text"> Grâce à elles toutes, Glow and Go Girls est possible</div>
       <div class="team-body-card">
         <div class="team-body-card1">
           <img class=team-body-img src="G&GG/src/assets/img5acceuil.svg">
