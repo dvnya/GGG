@@ -241,9 +241,9 @@ a{
     margin-top: 30px;
 }
 .testimonial-card1-body{
-     width: 370px;
-     height: 300px;
-     background-color:#F3EEE9;
+    width: 370px;
+    height: 300px;
+    background-color:#F3EEE9;
     margin:5px;
     border-radius: 5%;
     box-shadow: 15px 0 50px rgba(0, 0, 0, 0.2);
@@ -333,7 +333,7 @@ a{
 .team-body-title{
     text-align: center;
     margin-top: 15px;
-    ;
+;
 }
 
 .team-body-text{
